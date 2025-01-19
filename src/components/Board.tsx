@@ -13,7 +13,7 @@ export const Board = (props: BoardProps) => {
 
   const renderSquare = (i: number) => {
     return (
-      <Square key={i} value={squares[i]} onClick={() => onClick(i)}/>
+      <Square index={i} value={squares[i]} onClick={() => onClick(i)}/>
     )
   }
 
